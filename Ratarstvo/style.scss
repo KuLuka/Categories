@@ -1,0 +1,1722 @@
+$red:#EA1C24;
+$black:#292929;
+$gray:#4C4C4C;
+
+
+@mixin miniTablet-Logo {
+    @media(min-width:600px) and (max-width:700px) {@content;}
+}
+
+@mixin Tablet-Logo {
+    @media(min-width:700px) and (max-width:899px) {@content;}
+}
+
+@mixin Tablet  {
+    @media(min-width:600px)and (max-width:899px) {@content;}
+}
+
+@mixin Desktop1 {
+    @media(min-width:900px) and (max-width:1290px) {@content};
+}
+
+@mixin Desktop2 {
+    @media(min-width:1291px) {@content}
+}
+
+
+
+        .rotacione-freze-img {
+            background: url('./../../JM/Ratarstvo/TraktrorskeFreze/RotacioneFreze.jpg');
+            background-size:cover;
+            background-position:center;
+            background-repeat:no-repeat;
+            width:130px;
+            height:80px;
+            margin:0 auto;
+            background-position-x:-.2rem;
+            
+
+           // 600-700px
+           @include miniTablet-Logo() {
+            width:160px;
+            height:102px;
+            margin:0 auto;
+            background-position-x:-.2rem;
+        }
+
+        // 700-899px
+        @include Tablet-Logo() {
+            width:160px;
+            height:102px;
+            margin:0 auto;
+            background-position-x:-.2rem;
+        }
+
+
+        @include Desktop1() {
+            width:200px;
+            height:100px;
+            
+        }
+
+        @include Desktop2() {
+            width:200px;
+            height:100px;
+        }
+        }
+
+        .pomerljive-freze-img {
+            background: url('./../../JM/Ratarstvo/TraktrorskeFreze/PomerljiveFreze.jpg');
+            background-size:cover;
+            background-position:center;
+            background-repeat:no-repeat;
+            width:130px;
+            height:80px;
+            margin:0 auto;
+            background-position-x:-.2rem;
+            
+           // 600-700px
+           @include miniTablet-Logo() {
+            width:160px;
+            height:102px;
+            margin:0 auto;
+            background-position-x:-.2rem;
+        }
+
+        // 700-899px
+        @include Tablet-Logo() {
+            width:160px;
+            height:102px;
+            margin:0 auto;
+            background-position-x:-.2rem;
+        }
+
+
+        @include Desktop1() {
+            width:200px;
+            height:100px;
+            
+        }
+
+        @include Desktop2() {
+            width:200px;
+            height:110px;
+        }
+        }
+
+        .minos-agri-freze-img {
+            background: url('./../../JM/Ratarstvo/TraktrorskeFreze/MINOS-AGRI-FREZA.jpg');
+            background-size:cover;
+            background-position:center;
+            background-repeat:no-repeat;
+            width:130px;
+            height:80px;
+            margin:0 auto;
+
+           // 600-700px
+           @include miniTablet-Logo() {
+            width:160px;
+            height:92px;
+            margin:0 auto;
+        }
+
+        // 700-899px
+        @include Tablet-Logo() {
+            width:160px;
+            height:92px;
+            margin:0 auto;
+        }
+
+
+        @include Desktop1() {
+            width:200px;
+            height:100px;
+            
+        }
+
+        @include Desktop2() {
+            width:200px;
+            height:100px;
+        }
+        }
+
+        .fuzinar-cs-freza-img {
+            background: url('./../../JM/Ratarstvo/TraktrorskeFreze/FUZINAR-CS-FREZA.jpg');
+            background-size:cover;
+            background-position:center;
+            background-repeat:no-repeat;
+            width:130px;
+            height:80px;
+            margin:0 auto;
+
+           // 600-700px
+           @include miniTablet-Logo() {
+            width:160px;
+            height:102px;
+        }
+
+        // 700-899px
+        @include Tablet-Logo() {
+            width:160px;
+            height:102px;
+        }
+
+
+        @include Desktop1() {
+            width:200px;
+            height:100px;
+            
+        }
+
+        @include Desktop2() {
+            width:200px;
+            height:100px;
+        }
+        }
+
+        .fuzinar-sf-freza-img {
+            background: url('./../../JM/Ratarstvo/TraktrorskeFreze/FUZINAR-SF-FREZA.jpg');
+            background-size:cover;
+            background-position:center;
+            background-repeat:no-repeat;
+            width:130px;
+            height:80px;
+            margin:0 auto;
+
+           // 600-700px
+           @include miniTablet-Logo() {
+            width:160px;
+            height:102px;
+        }
+
+        // 700-899px
+        @include Tablet-Logo() {
+            width:160px;
+            height:102px;
+        }
+
+
+        @include Desktop1() {
+            width:200px;
+            height:100px;
+            
+        }
+
+        @include Desktop2() {
+            width:200px;
+            height:100px;
+        }
+        }
+
+        .imt-610-img {
+            background: url('./../../JM/Ratarstvo/Plugovi/imt-610.jpg');
+            background-size:cover;
+            background-position:center;
+            background-repeat:no-repeat;
+            width:130px;
+            height:102px;
+            margin:0 auto;
+            background-position-x:2.6rem;
+
+           // 600-700px
+           @include miniTablet-Logo() {
+            width:130px;
+            height:102px;
+            margin:0 auto;
+            background-position-x:2.6rem;
+        }
+
+        // 700-899px
+        @include Tablet-Logo() {
+            width:130px;
+            height:102px;
+            margin:0 auto;
+            background-position-x:2.6rem;
+        }
+
+
+        @include Desktop1() {
+            width:200px;
+            height:150px;
+            background-position-x:2.6rem;
+        }
+
+        @include Desktop2() {
+            width:200px;
+            height:150px;
+            background-position-x:2.6rem;
+        }
+        }
+
+        .imt-758-img {
+            background: url('./../../JM/Ratarstvo/Plugovi/imt-758.jpg');
+            background-size:cover;
+            background-position:center;
+            background-repeat:no-repeat;
+            width:130px;
+            height:102px;
+            margin:0 auto;
+
+           // 600-700px
+           @include miniTablet-Logo() {
+            width:130px;
+            height:102px;
+            margin:0 auto;
+        }
+
+        // 700-899px
+        @include Tablet-Logo() {
+            width:130px;
+            height:102px;
+            margin:0 auto;
+        }
+
+
+        @include Desktop1() {
+            width:200px;
+            height:150px;
+            
+        }
+
+        @include Desktop2() {
+            width:200px;
+            height:150px;
+        }
+        }
+
+        .agro-755-img {
+            background: url('./../../JM/Ratarstvo/Plugovi/Agro-lemind-755.jpg');
+            background-size:cover;
+            background-position:center;
+            background-repeat:no-repeat;
+            width:130px;
+            height:102px;
+            margin:0 auto;
+
+           // 600-700px
+           @include miniTablet-Logo() {
+            width:130px;
+            height:102px;
+            margin:0 auto;
+        }
+
+        // 700-899px
+        @include Tablet-Logo() {
+            width:130px;
+            height:102px;
+            margin:0 auto;
+        }
+
+
+        @include Desktop1() {
+            width:200px;
+            height:100px;
+            
+        }
+
+        @include Desktop2() {
+            width:200px;
+            height:100px;
+        }
+        }
+
+        .agro-756-img {
+            background: url('./../../JM/Ratarstvo/Plugovi/Agro-lemind-756.jpg');
+            background-size:cover;
+            background-position:center;
+            background-repeat:no-repeat;
+            width:130px;
+            height:102px;
+            margin:0 auto;
+
+           // 600-700px
+           @include miniTablet-Logo() {
+            width:130px;
+            height:102px;
+            margin:0 auto;
+        }
+
+        // 700-899px
+        @include Tablet-Logo() {
+            width:130px;
+            height:102px;
+            margin:0 auto;
+        }
+
+
+        @include Desktop1() {
+            width:200px;
+            height:100px;
+            
+        }
+
+        @include Desktop2() {
+            width:200px;
+            height:100px;
+        }
+        }
+
+        .noseni-bell-implex-img {
+            background: url('./../../JM/Ratarstvo/Plugovi/Bell-impex.jpg');
+            background-size:cover;
+            background-position:center;
+            background-repeat:no-repeat;
+            width:130px;
+            height:102px;
+            margin:0 auto;
+
+           // 600-700px
+           @include miniTablet-Logo() {
+            width:130px;
+            height:102px;
+            margin:0 auto;
+        }
+
+        // 700-899px
+        @include Tablet-Logo() {
+            width:130px;
+            height:102px;
+            margin:0 auto;
+        }
+
+
+        @include Desktop1() {
+            width:200px;
+            height:100px;
+            
+        }
+
+        @include Desktop2() {
+            width:200px;
+            height:100px;
+        }
+        }
+
+        .kratka-gorenc-img {
+            background: url('./../../JM/Ratarstvo/Tanjirace/Kratka-tanjirača.jpg');
+            background-size:cover;
+            background-position:center;
+            background-repeat:no-repeat;
+            width:130px;
+            height:150px;
+            margin:0 auto;
+
+           // 600-700px
+           @include miniTablet-Logo() {
+            width:130px;
+            height:150px;
+            margin-top:1.5rem;
+        }
+
+        // 700-899px
+        @include Tablet-Logo() {
+            width:200px;
+            height:120px;
+            margin-top:1.5rem;
+        }
+
+
+        @include Desktop1() {
+            width:200px;
+            height:120px;
+            
+        }
+
+        @include Desktop2() {
+            width:200px;
+            height:120px;
+        }
+        }
+
+        .rotor-tanjirace-img {
+            background: url('./../../JM/Ratarstvo/Tanjirace/rotor-za-tanjirace.jpg');
+            background-size:cover;
+            background-position:center;
+            background-repeat:no-repeat;
+            width:130px;
+            height:100px;
+            margin:0 auto;
+
+           // 600-700px
+           @include miniTablet-Logo() {
+            width:130px;
+            height:100px;
+            margin-top:1.5rem;
+        }
+
+        // 700-899px
+        @include Tablet-Logo() {
+            width:200px;
+            height:120px;
+        }
+
+
+        @include Desktop1() {
+            width:200px;
+            height:120px;
+            
+        }
+
+        @include Desktop2() {
+            width:200px;
+            height:120px;
+        }
+        }
+
+        .nosene-tanjirace-img {
+            background: url('./../../JM/Ratarstvo/Tanjirace/nosena-tanjiraca-teska.jpg');
+            background-size:cover;
+            background-position:center;
+            background-repeat:no-repeat;
+            width:130px;
+            height:100px;
+            margin:0 auto;
+
+           // 600-700px
+           @include miniTablet-Logo() {
+            width:130px;
+            height:100px;
+            margin-top:1.5rem;
+        }
+
+        // 700-899px
+        @include Tablet-Logo() {
+            width:200px;
+            height:120px;
+        }
+
+
+        @include Desktop1() {
+            width:200px;
+            height:120px;
+            
+        }
+
+        @include Desktop2() {
+            width:200px;
+            height:120px;
+        }
+        }
+
+
+        .nosene-tanjirace-lake-img {
+            background: url('./../../JM/Ratarstvo/Tanjirace/tanjiraca-nosena-laka.jpg');
+            background-size:cover;
+            background-position:center;
+            background-repeat:no-repeat;
+            width:130px;
+            height:100px;
+            margin:0 auto;
+
+           // 600-700px
+           @include miniTablet-Logo() {
+            width:130px;
+            height:100px;
+            margin-top:1.5rem;
+        }
+
+        // 700-899px
+        @include Tablet-Logo() {
+            width:200px;
+            height:120px;
+        }
+
+
+        @include Desktop1() {
+            width:200px;
+            height:120px;
+            
+        }
+
+        @include Desktop2() {
+            width:200px;
+            height:120px;
+        }
+        }
+
+        .vucene-tanjirace-teske-img {
+            background: url('./../../JM/Ratarstvo/Tanjirace/tanjiraca-vucena-teska.jpg');
+            background-size:cover;
+            background-position:center;
+            background-repeat:no-repeat;
+            width:130px;
+            height:100px;
+            margin:0 auto;
+
+           // 600-700px
+           @include miniTablet-Logo() {
+            width:130px;
+            height:100px;
+            margin-top:1.5rem;
+        }
+
+        // 700-899px
+        @include Tablet-Logo() {
+            width:200px;
+            height:120px;
+        }
+
+
+        @include Desktop1() {
+            width:200px;
+            height:120px;
+            
+        }
+
+        @include Desktop2() {
+            width:200px;
+            height:120px;
+        }
+        }
+
+        .vucene-tanjirace-sa-krilima-img {
+            background: url('./../../JM/Ratarstvo/Tanjirace/tanjiraca-sa-krilima.jpg');
+            background-size:cover;
+            background-position:center;
+            background-repeat:no-repeat;
+            width:130px;
+            height:100px;
+            margin:0 auto;
+
+           // 600-700px
+           @include miniTablet-Logo() {
+            width:130px;
+            height:100px;
+            margin-top:1.5rem;
+        }
+
+        // 700-899px
+        @include Tablet-Logo() {
+            width:200px;
+            height:120px;
+        }
+
+
+        @include Desktop1() {
+            width:200px;
+            height:120px;
+            
+        }
+
+        @include Desktop2() {
+            width:200px;
+            height:120px;
+        }
+        }
+
+        .tanjirace-vucene-poluteske-img {
+            background: url('./../../JM/Ratarstvo/Tanjirace/tanjiraca-vucena-poluteska.jpg');
+            background-size:cover;
+            background-position:center;
+            background-repeat:no-repeat;
+            width:130px;
+            height:100px;
+            margin:0 auto;
+
+           // 600-700px
+           @include miniTablet-Logo() {
+            width:130px;
+            height:100px;
+            margin-top:1.5rem;
+        }
+
+        // 700-899px
+        @include Tablet-Logo() {
+            width:200px;
+            height:120px;
+        }
+
+
+        @include Desktop1() {
+            width:200px;
+            height:120px;
+            
+        }
+
+        @include Desktop2() {
+            width:200px;
+            height:120px;
+        }
+        }
+
+        .tanjiraca-vucena-laka-img {
+            background: url('./../../JM/Ratarstvo/Tanjirace/tanjiraca-vucena-laka.jpg');
+            background-size:cover;
+            background-position:center;
+            background-repeat:no-repeat;
+            width:130px;
+            height:100px;
+            margin:0 auto;
+
+           // 600-700px
+           @include miniTablet-Logo() {
+            width:130px;
+            height:100px;
+            margin-top:1.5rem;
+        }
+
+        // 700-899px
+        @include Tablet-Logo() {
+            width:200px;
+            height:120px;
+        }
+
+
+        @include Desktop1() {
+            width:200px;
+            height:120px;
+            
+        }
+
+        @include Desktop2() {
+            width:200px;
+            height:120px;
+        }
+        }
+
+        .gumaplast-img {
+            background: url('./../../JM/Ratarstvo/Tanjirace/gumaplast-rau.jpg');
+            background-size:cover;
+            background-position:center;
+            background-repeat:no-repeat;
+            width:130px;
+            height:100px;
+            margin:0 auto;
+
+           // 600-700px
+           @include miniTablet-Logo() {
+            width:130px;
+            height:100px;
+            margin-top:1.5rem;
+        }
+
+        // 700-899px
+        @include Tablet-Logo() {
+            width:200px;
+            height:120px;
+        }
+
+
+        @include Desktop1() {
+            width:200px;
+            height:120px;
+            
+        }
+
+        @include Desktop2() {
+            width:200px;
+            height:120px;
+        }
+        }
+
+        .fpm-tanjirace-img {
+            background: url('./../../JM/Ratarstvo/Tanjirace/FPM-Vučena-tanjirača.png');
+            background-size:cover;
+            background-position:center;
+            background-repeat:no-repeat;
+            width:130px;
+            height:65px;
+            margin:0 auto;
+
+           // 600-700px
+           @include miniTablet-Logo() {
+            width:130px;
+            height:65px;
+            margin-top:1.5rem;
+        }
+
+        // 700-899px
+        @include Tablet-Logo() {
+            width:200px;
+            height:110px;
+        }
+
+
+        @include Desktop1() {
+            width:200px;
+            height:110px;
+            
+        }
+
+        @include Desktop2() {
+            width:220px;
+            height:110px;
+        }
+        }
+
+
+        .majevica-tanjirace-img {
+            background: url('./../../JM/Ratarstvo/Tanjirace/majevica-tanjirace.png');
+            background-size:cover;
+            background-position:center;
+            background-repeat:no-repeat;
+            width:130px;
+            height:55px;
+            margin:0 auto;
+
+           // 600-700px
+           @include miniTablet-Logo() {
+            width:130px;
+            height:55px;
+            margin-top:2rem;
+        }
+
+        // 700-899px
+        @include Tablet-Logo() {
+            width:220px;
+            height:92px;
+            margin-top:2rem;
+        }
+
+
+        @include Desktop1() {
+            width:220px;
+            height:92px;
+        }
+
+        @include Desktop2() {
+            width:220px;
+            height:92px;
+        }
+        }
+
+        .setvo-supra-img {
+            background: url('./../../JM/Ratarstvo/Setvo/Setvo-supra.jpg');
+            background-size:cover;
+            background-position:center;
+            background-repeat:no-repeat;
+            width:130px;
+            height:50px;
+            margin:0 auto;
+
+           // 600-700px
+           @include miniTablet-Logo() {
+            width:130px;
+            height:50px;
+            margin:0 auto;
+            margin-top:2rem;
+        }
+
+        // 700-899px
+        @include Tablet-Logo() {
+            width:250px;
+            height:108px;
+            margin-top:2rem;
+        }
+
+
+        @include Desktop1() {
+            width:250px;
+            height:108px;
+        }
+
+        @include Desktop2() {
+            width:250px;
+            height:108px;
+        }
+        }
+
+        .setvo-gorenc-img {
+            background: url('./../../JM/Ratarstvo/Setvo/setvo-gorenc.jpg');
+            background-size:cover;
+            background-position:center;
+            background-repeat:no-repeat;
+            width:90px;
+            height:50px;
+            margin:0 auto;
+
+           // 600-700px
+           @include miniTablet-Logo() {
+            width:130px;
+            height:50px;
+            margin:0 auto;
+            margin-top:1rem;
+        }
+
+        // 700-899px
+        @include Tablet-Logo() {
+            width:160px;
+            height:108px;
+            margin-top:1rem;
+        }
+
+
+        @include Desktop1() {
+            width:160px;
+            height:108px;
+        }
+
+        @include Desktop2() {
+            width:175px;
+            height:108px;
+            margin-bottom:.5rem;
+        }
+        }
+
+        .setvo-majevica-img {
+            background: url('./../../JM/Ratarstvo/Setvo/Setvo-majevica.png');
+            background-size:cover;
+            background-position:center;
+            background-repeat:no-repeat;
+            width:130px;
+            height:100px;
+            margin:0 auto;
+
+           // 600-700px
+           @include miniTablet-Logo() {
+            width:130px;
+            height:50px;
+            margin:0 auto;
+            margin-top:.5rem;
+        }
+
+        // 700-899px
+        @include Tablet-Logo() {
+            width:220px;
+            height:220px;
+            margin-top:0;
+        }
+
+
+        @include Desktop1() {
+            width:220px;
+            height:220px;
+            
+        }
+
+        @include Desktop2() {
+            width:220px;
+            height:220px;
+        }
+        }
+
+        .vucena-prskalica-img {
+            background: url('./../../JM/Ratarstvo/Prskalice/Agro-vucena-prskalica.jpg');
+            background-size:cover;
+            background-position:center;
+            background-repeat:no-repeat;
+            width:150px;
+            height:105px;
+            margin:0 auto;
+
+           // 600-700px
+           @include miniTablet-Logo() {
+            width:150px;
+            height:105px;
+        }
+
+        // 700-899px
+        @include Tablet-Logo() {
+            width:150px;
+            height:105px;
+            margin-top:-1rem;
+        }
+
+
+        @include Desktop1() {
+            width:150px;
+            height:105px;
+            
+        }
+
+        @include Desktop2() {
+            width:150px;
+            height:105px;
+        }
+        }
+
+        .motorna-prskalica-img {
+            background: url('./../../JM/Ratarstvo/Prskalice/agro-motorna-prskalica.jpg');
+            background-size:cover;
+            background-position:center;
+            background-repeat:no-repeat;
+            width:150px;
+            height:105px;
+            margin:0 auto;
+          
+           
+
+           // 600-700px
+           @include miniTablet-Logo() {
+            width:150px;
+            height:105px;
+            margin-top:2rem;
+        }
+
+        // 700-899px
+        @include Tablet-Logo() {
+            width:150px;
+            height:105px;
+            margin-top:2rem;
+        }
+
+
+        @include Desktop1() {
+            width:150px;
+            height:105px;
+            
+        }
+
+        @include Desktop2() {
+            width:150px;
+            height:105px;
+        }
+        }
+
+        .nosena-prskalica-img {
+            background: url('./../../JM/Ratarstvo/Prskalice/agro-nosena-prskalica.jpg');
+            background-size:cover;
+            background-position:center;
+            background-repeat:no-repeat;
+            width:150px;
+            height:105px;
+            margin:0 auto;
+
+           // 600-700px
+           @include miniTablet-Logo() {
+            width:150px;
+            height:105px;
+            margin-top:1rem;
+        }
+
+        // 700-899px
+        @include Tablet-Logo() {
+            width:150px;
+            height:105px;
+            
+        }
+
+
+        @include Desktop1() {
+            width:150px;
+            height:105px;
+            
+        }
+
+        @include Desktop2() {
+            width:150px;
+            height:105px;
+        }
+        }
+
+        .nosena-prskalica-400-1200-img {
+            background: url('./../../JM/Ratarstvo/Prskalice/agro-nosena-bela.jpg');
+            background-size:cover;
+            background-position:center;
+            background-repeat:no-repeat;
+            width:150px;
+            height:105px;
+            margin:0 auto;
+
+           // 600-700px
+           @include miniTablet-Logo() {
+            width:150px;
+            height:105px;
+            margin-top:1rem;
+        }
+
+        // 700-899px
+        @include Tablet-Logo() {
+            width:150px;
+            height:105px;
+            
+        }
+
+
+        @include Desktop1() {
+            width:150px;
+            height:105px;
+            
+        }
+
+        @include Desktop2() {
+            width:150px;
+            height:105px;
+        }
+        }
+
+        .motokultivatorske-prskalice-img {
+            background: url('./../../JM/Ratarstvo/Prskalice/morava-motokultivatorska.jpeg');
+            background-size:cover;
+            background-position:center;
+            background-repeat:no-repeat;
+            width:120px;
+            height:75px;
+            margin:0 auto;
+            background-position-x:-1rem;
+            background-position-y:-4rem;
+
+           // 600-700px
+           @include miniTablet-Logo() {
+            width:120px;
+            height:75px;
+        }
+
+        // 700-899px
+        @include Tablet-Logo() {
+            width:120px;
+            height:75px;
+            
+        }
+
+
+        @include Desktop1() {
+            width:150px;
+            height:105px;
+            
+        }
+
+        @include Desktop2() {
+            width:150px;
+            height:105px;
+        }
+        }
+
+        .motorne-prskalice-img {
+            background: url('./../../JM/Ratarstvo/Prskalice/morava-motorna.jpg');
+            background-size:cover;
+            background-position:center;
+            background-repeat:no-repeat;
+            width:120px;
+            height:75px;
+            margin:0 auto;
+            
+            
+
+           // 600-700px
+           @include miniTablet-Logo() {
+            width:120px;
+            height:75px;
+            margin-top:1.5rem;
+        }
+
+        // 700-899px
+        @include Tablet-Logo() {
+            width:120px;
+            height:75px;
+            
+        }   
+
+
+        @include Desktop1() {
+            width:150px;
+            height:105px;
+        }
+
+        @include Desktop2() {
+            width:150px;
+            height:105px;
+        }
+        }
+
+        .nosene-prskalice-f-img {
+            background: url('./../../JM/Ratarstvo/Prskalice/morava-f.jpg');
+            background-size:cover;
+            background-position:center;
+            background-repeat:no-repeat;
+            width:100px;
+            height:75px;
+            margin:0 auto;
+
+           // 600-700px
+           @include miniTablet-Logo() {
+            width:150px;
+            height:105px;
+            margin-top:1rem;
+        }
+
+        // 700-899px
+        @include Tablet-Logo() {
+            width:150px;
+            height:105px;
+            
+        }
+
+
+        @include Desktop1() {
+            width:150px;
+            height:105px;
+            
+        }
+
+        @include Desktop2() {
+            width:150px;
+            height:105px;
+        }
+        }
+
+        .nosene-prskalice-e-img {
+            background: url('./../../JM/Ratarstvo/Prskalice/morava-e.jpg');
+            background-size:cover;
+            background-position:center;
+            background-repeat:no-repeat;
+            width:120px;
+            height:75px;
+            margin:0 auto;
+
+           // 600-700px
+           @include miniTablet-Logo() {
+            width:120px;
+            height:75px;
+            margin-top:1rem;
+        }
+
+        // 700-899px
+        @include Tablet-Logo() {
+            width:120px;
+            height:75px;
+            
+        }
+
+
+        @include Desktop1() {
+            width:150px;
+            height:105px;
+            
+        }
+
+        @include Desktop2() {
+            width:150px;
+            height:105px;
+        }
+        }
+
+        .nosene-prskalice-s-img {
+            background: url('./../../JM/Ratarstvo/Prskalice/morava-s.jpg');
+            background-size:cover;
+            background-position:center;
+            background-repeat:no-repeat;
+            width:70px;
+            height:75px;
+            margin:0 auto;
+
+           // 600-700px
+           @include miniTablet-Logo() {
+            width:70px;
+            height:75px;
+            margin-top:1rem;
+        }
+
+        // 700-899px
+        @include Tablet-Logo() {
+            width:70px;
+            height:75px;
+            
+        }
+
+
+        @include Desktop1() {
+            width:95px;
+            height:105px;
+            
+        }
+
+        @include Desktop2() {
+            width:95px;
+            height:105px;
+        }
+        }
+
+        .nosena-gumaplast-img {
+            background: url('./../../JM/Ratarstvo/Prskalice/nosena-gumaplast.jpg');
+            background-size:cover;
+            background-position:center;
+            background-repeat:no-repeat;
+            width:130px;
+            height:105px;
+            margin:0 auto;
+
+           // 600-700px
+           @include miniTablet-Logo() {
+            width:150px;
+            height:105px;
+            
+            
+        }
+
+        // 700-899px
+        @include Tablet-Logo() {
+            width:250px;
+            height:105px;
+            
+        }
+
+
+        @include Desktop1() {
+            width:250px;
+            height:105px;
+            
+        }
+
+        @include Desktop2() {
+            width:250px;
+            height:105px;
+        }
+        }
+
+
+        .prskalica-330-440-gumaplast-img {
+            background: url('./../../JM/Ratarstvo/Prskalice/gumaplast-330-440.jpg');
+            background-size:cover;
+            background-position:center;
+            background-repeat:no-repeat;
+            width:130px;
+            height:105px;
+            margin:0 auto;
+
+           // 600-700px
+           @include miniTablet-Logo() {
+            width:150px;
+            height:105px;
+        }
+
+        // 700-899px
+        @include Tablet-Logo() {
+            width:250px;
+            height:105px;
+            
+        }
+
+
+        @include Desktop1() {
+            width:250px;
+            height:105px;
+            
+        }
+
+        @include Desktop2() {
+            width:250px;
+            height:105px;
+        }
+        }
+
+        .ferocoope-prskalice-img {
+            background: url('./../../JM/Ratarstvo/Prskalice/ferocoope-prskalica.jpg');
+            background-size:cover;
+            background-position:center;
+            background-repeat:no-repeat;
+            width:130px;
+            height:105px;
+            margin:0 auto;
+
+           // 600-700px
+           @include miniTablet-Logo() {
+            width:150px;
+            height:105px;
+        }
+
+        // 700-899px
+        @include Tablet-Logo() {
+            width:250px;
+            height:105px;
+            
+        }
+
+
+        @include Desktop1() {
+            width:250px;
+            height:105px;
+            
+        }
+
+        @include Desktop2() {
+            width:250px;
+            height:105px;
+        }
+        }
+
+
+        .rasipac-za-voce-img {
+            background: url('./../../JM/Ratarstvo/Rasipaci/rasipac-za-voce.png');
+            background-size:cover;
+            background-position:center;
+            background-repeat:no-repeat;
+            width:120px;
+            height:145px;
+            margin:0 auto;
+            
+
+           // 600-700px
+           @include miniTablet-Logo() {
+            width:120px;
+            height:145px;
+            margin:0 auto;
+                      
+        }
+
+        // 700-899px
+        @include Tablet-Logo() {
+            width:120px;
+            height:145px;
+            margin:0 auto;
+        }
+
+
+        @include Desktop1() {
+            width:160px;
+            height:195px;
+        }
+
+        @include Desktop2() {
+            width:160px;
+            height:195px;
+        }
+        }
+
+
+        .rasipac-djubriva-mb-img {
+            background: url('./../../JM/Ratarstvo/Rasipaci/rasipac-djubriva.png');
+            background-size:cover;
+            background-position:center;
+            background-repeat:no-repeat;
+            width:120px;
+            height:145px;
+            margin:0 auto;
+
+           // 600-700px
+           @include miniTablet-Logo() {
+            width:120px;
+            height:145px;
+            
+        }
+
+        // 700-899px
+        @include Tablet-Logo() {
+            width:120px;
+            height:145px;
+        }
+
+
+        @include Desktop1() {
+            width:160px;
+            height:195px;
+        }
+
+        @include Desktop2() {
+            width:160px;
+            height:195px;
+        }
+        }
+
+
+        .rasipac-djubriva-mm-img {
+            background: url('./../../JM/Ratarstvo/Rasipaci/rasipac-mm.png');
+            background-size:cover;
+            background-position:center;
+            background-repeat:no-repeat;
+            width:120px;
+            height:145px;
+            margin:0 auto;
+
+           // 600-700px
+           @include miniTablet-Logo() {
+            width:120px;
+            height:145px;
+            
+        }
+
+        // 700-899px
+        @include Tablet-Logo() {
+            width:120px;
+            height:145px;
+        }
+
+
+        @include Desktop1() {
+            width:160px;
+            height:195px;
+        }
+
+        @include Desktop2() {
+            width:160px;
+            height:195px;
+        }
+        }
+        
+
+        .rasipac-ferti-img {
+            background: url('./../../JM/Ratarstvo/Rasipaci/ino-ferti2.jpg');
+            background-size:cover;
+            background-position:center;
+            background-repeat:no-repeat;
+            width:120px;
+            height:105px;
+            margin:0 auto;
+
+           // 600-700px
+           @include miniTablet-Logo() {
+            width:120px;
+            height:105px;
+        }
+
+        // 700-899px
+        @include Tablet-Logo() {
+            width:200px;
+            height:100px;
+            
+        }
+
+
+        @include Desktop1() {
+            width:200px;
+            height:100px;
+            
+        }
+
+        @include Desktop2() {
+            width:300px;
+            height:150px;
+        }
+        }
+
+        
+        .rasipac-ino-brezice-img {
+            background: url('./../../JM/Ratarstvo/Rasipaci/ino-300.jpg');
+            background-size:cover;
+            background-position:center;
+            background-repeat:no-repeat;
+            width:120px;
+            height:105px;
+            margin:0 auto;
+
+           // 600-700px
+           @include miniTablet-Logo() {
+            width:120px;
+            height:105px;
+        }
+
+        // 700-899px
+        @include Tablet-Logo() {
+            width:200px;
+            height:100px;
+            
+        }
+
+
+        @include Desktop1() {
+            width:200px;
+            height:100px;
+            
+        }
+
+        @include Desktop2() {
+            width:300px;
+            height:150px;
+        }
+        }
+
+        .rasipaci-djubriva-careta-img {
+            background: url('./../../JM/Ratarstvo/Rasipaci/ferocoop-rasipac.jpg');
+            background-size:cover;
+            background-position:center;
+            background-repeat:no-repeat;
+            width:120px;
+            height:145px;
+            margin:0 auto;
+
+           // 600-700px
+           @include miniTablet-Logo() {
+            width:120px;
+            height:145px;
+        }
+
+        // 700-899px
+        @include Tablet-Logo() {
+            width:200px;
+            height:100px;
+            
+        }
+
+
+        @include Desktop1() {
+            width:200px;
+            height:100px;
+            
+        }
+
+        @include Desktop2() {
+            width:300px;
+            height:150px;
+        }
+        }
+
+        .rasipac-800-1000-img {
+            background: url('./../../JM/Ratarstvo/Rasipaci/minos-agri.jpg');
+            background-size:cover;
+            background-position:center;
+            background-repeat:no-repeat;
+            width:120px;
+            height:145px;
+            margin:0 auto;
+
+           // 600-700px
+           @include miniTablet-Logo() {
+            width:120px;
+            height:145px;
+        }
+
+        // 700-899px
+        @include Tablet-Logo() {
+            width:200px;
+            height:100px;
+            
+        }
+
+
+        @include Desktop1() {
+            width:200px;
+            height:100px;
+            
+        }
+
+        @include Desktop2() {
+            width:300px;
+            height:200px;
+        }
+        }
+
+        .sejalica-za-zito-img {
+            background: url('./../../JM/Ratarstvo/Sejalice/Sejalica-za-zito.png');
+            background-size:cover;
+            background-position:center;
+            background-repeat:no-repeat;
+            width:150px;
+            height:90px;
+            margin:0 auto;
+
+           // 600-700px
+           @include miniTablet-Logo() {
+            width:150px;
+            height:90px;
+            
+        }
+
+        // 700-899px
+        @include Tablet-Logo() {
+            width:150px;
+            height:90px;
+            
+        }
+
+
+        @include Desktop1() {
+            width:200px;
+            height:100px;
+            
+        }
+
+        @include Desktop2() {
+            width:300px;
+            height:200px;
+        }
+        }
+
+        .pneumatske-sejalice-img {
+            background: url('./../../JM/Ratarstvo/PneuSejalice/pneu-sejalica.png');
+            background-size:cover;
+            background-position:center;
+            background-repeat:no-repeat;
+            width:105px;
+            height:90px;
+            margin:0 auto;
+
+           // 600-700px
+           @include miniTablet-Logo() {
+            width:105px;
+            height:90px;
+            
+        }
+
+        // 700-899px
+        @include Tablet-Logo() {
+            width:105px;
+            height:90px;
+            
+        }
+
+
+        @include Desktop1() {
+            width:200px;
+            height:170px;
+            
+        }
+
+        @include Desktop2() {
+            width:200px;
+            height:170px;
+        }
+        }
+
+        .dvoredni-berac-img {
+            background: url('./../../JM/Ratarstvo/Beraci/dvoredni-beraci.png');
+            background-size:cover;
+            background-position:center;
+            background-repeat:no-repeat;
+            width:120px;
+            height:80px;
+            margin:0 auto;
+
+           // 600-700px
+           @include miniTablet-Logo() {
+            width:150px;
+            height:100px;
+            
+        }
+
+        // 700-899px
+        @include Tablet-Logo() {
+            width:190px;
+            height:150px;
+            
+        }
+
+
+        @include Desktop1() {
+            width:190px;
+            height:150px;
+            
+        }
+
+        @include Desktop2() {
+            width:260px;
+            height:200px;
+        }
+        }
+
+        .jednoredni-berac-img {
+            background: url('./../../JM/Ratarstvo/Beraci/jednoredni-berac.png');
+            background-size:cover;
+            background-position:center;
+            background-repeat:no-repeat;
+            width:120px;
+            height:80px;
+            margin:0 auto;
+
+           // 600-700px
+           @include miniTablet-Logo() {
+            width:150px;
+            height:100px;
+            
+        }
+
+        // 700-899px
+        @include Tablet-Logo() {
+            width:190px;
+            height:150px;
+            
+        }
+
+
+        @include Desktop1() {
+            width:190px;
+            height:150px;
+            
+        }
+
+        @include Desktop2() {
+            width:260px;
+            height:200px;
+        }
+        }
+
+        

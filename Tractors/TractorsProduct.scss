@@ -1,0 +1,1763 @@
+$red:#EA1C24;
+$black:#292929;
+$gray:#4C4C4C;
+$l-gray:#d6d6d6;
+$font:#737373;
+$cat-color:#f0f0f0;
+$prod-color:#939393;
+
+
+@mixin miniTablet-Logo {
+    @media(min-width:600px) and (max-width:700px) {@content;}
+}
+
+@mixin Tablet-Logo {
+    @media(min-width:700px) and (max-width:899px) {@content;}
+}
+
+@mixin Tablet  {
+    @media(min-width:600px)and (max-width:899px) {@content;}
+}
+
+@mixin Desktop1 {
+    @media(min-width:900px) and (max-width:1290px) {@content};
+}
+
+@mixin Desktop2 {
+    @media(min-width:1291px) {@content}
+}
+
+
+.full-width-line {
+    border-top:1px solid #cecece;
+}
+
+
+.product-page-content {
+    margin-bottom:2rem;
+
+    @include Desktop1(){
+        display:grid;
+        grid-template-columns: repeat(2,50%);
+        margin:0 auto;
+        border-bottom:1px solid #cecece;
+        margin-bottom:1rem;
+        padding:2rem 0;
+        width:80%;
+    }
+
+    @include Desktop2(){
+        display:grid;
+        grid-template-columns: repeat(2,auto);
+        width:1100px;
+        margin:0 auto;
+        border-bottom:1px solid #cecece;
+        margin-bottom:1rem;
+        padding:2rem 0;
+    }
+
+    //  --------------------------------------------------------------------------------------- //
+
+    .agricube-frutteto-80-img {
+        background:url('./../../JM/carraro-logo/Agricube-frutteto.png');
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        width:300px;
+        height:300px;
+        margin:0 auto;
+        margin-top:2rem;
+
+
+
+        @include Desktop1() {
+            height:300px;
+            width:300px;
+            ;
+        }
+
+        @include Desktop2() {
+            height:400px;
+            width:400px;
+            margin-top:4rem;
+        }
+        
+    }
+
+    .agricube-frutteto-90-img {
+        background:url('./../../JM/carraro-logo/Agricube-frutteto.png');
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        width:300px;
+        height:300px;
+        margin:0 auto;
+        margin-top:2rem;
+
+
+
+        @include Desktop1() {
+            height:300px;
+            width:300px;
+            ;
+        }
+
+        @include Desktop2() {
+            height:400px;
+            width:400px;
+            margin-top:4rem;
+        }
+        
+    }
+
+    .agricube-frutteto-100-img {
+        background:url('./../../JM/carraro-logo/Agricube-frutteto.png');
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        width:300px;
+        height:300px;
+        margin:0 auto;
+        margin-top:2rem;
+
+
+
+        @include Desktop1() {
+            height:300px;
+            width:300px;
+            ;
+        }
+
+        @include Desktop2() {
+            height:400px;
+            width:400px;
+            margin-top:4rem;
+        }
+        
+    }
+
+    .carraro-v75-img {
+        background:url('./../../JM/carraro-logo/carraro.jpg');
+        background-size:cover;
+        background-position:center;
+        background-repeat: no-repeat;
+        height:200px;
+            width:300px;
+        margin:0 auto;
+        margin-top:1.3rem;
+        margin-bottom:1rem;
+
+        @include Tablet {
+            height:200px;
+            width:300px;
+            margin-top:3rem;
+        }
+
+        @include Desktop1 {
+            height:200px;
+            width:300px;
+            margin-top:5rem;
+            
+        }
+
+        @include Desktop2 {
+            height:280px;
+            width:400px;
+            margin-top:6rem;
+        }
+        
+    }
+
+    .agricube-vigneto-80-img {
+        background:url('./../../JM/carraro-logo/vigneto.png');
+        background-size:cover;
+        background-position:center;
+        background-repeat: no-repeat;
+        height:300px;
+        width:340px;
+        margin:0 auto;
+        margin-top:1.3rem;
+        margin-bottom:1rem;
+
+        @include Tablet {
+            height:300px;
+            width:340px;
+            margin-top:1.9rem;
+        }
+
+        @include Desktop1 {
+            height:240px;
+            width:300px;
+            margin-top:4rem;
+        }
+
+        @include Desktop2 {
+            height:340px;
+            width:400px;
+            margin-top:4rem;
+        }
+        
+    }
+
+
+    .agricube-vigneto-80vl-img {
+        background:url('./../../JM/carraro-logo/Agricube-frutteto.png');
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        width:300px;
+        height:300px;
+        margin:0 auto;
+        margin-top:2rem;
+
+
+
+        @include Desktop1() {
+            height:300px;
+            width:300px;
+            ;
+        }
+
+        @include Desktop2() {
+            height:400px;
+            width:400px;
+            margin-top:4rem;
+        }
+        
+    }
+
+    .agricube-vigneto-90vl-img {
+        background:url('./../../JM/carraro-logo/Agricube-frutteto.png');
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        width:300px;
+        height:300px;
+        margin:0 auto;
+        margin-top:2rem;
+
+
+
+        @include Desktop1() {
+            height:300px;
+            width:300px;
+            ;
+        }
+
+        @include Desktop2() {
+            height:400px;
+            width:400px;
+            margin-top:4rem;
+        }
+        
+    }
+
+
+    .agricube-vigneto-100vl-img {
+        background:url('./../../JM/carraro-logo/Agricube-frutteto.png');
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        width:300px;
+        height:300px;
+        margin:0 auto;
+        margin-top:2rem;
+
+
+
+        @include Desktop1() {
+            height:300px;
+            width:300px;
+            ;
+        }
+
+        @include Desktop2() {
+            height:400px;
+            width:400px;
+            margin-top:4rem;
+        }
+        
+    }
+
+    .agricube-frutteto-basso-80fb-img {
+        background:url('./../../JM/carraro-logo/frutteto_basso.png');
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        width:300px;
+        height:200px;
+        margin:0 auto;
+        margin-top:2rem;
+
+        @include Tablet() {
+            height:270px;
+            width:400px;
+        }
+
+
+        @include Desktop1() {
+            height:170px;
+            width:300px;
+            margin-top:7rem;
+            
+        }
+
+        @include Desktop2() {
+            height:270px;
+            width:400px;
+            margin-top:7rem;
+        }
+        
+    }
+
+    .agricube-frutteto-basso-90fb-img {
+        background:url('./../../JM/carraro-logo/frutteto_basso.png');
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        width:300px;
+        height:200px;
+        margin:0 auto;
+        margin-top:2rem;
+
+        @include Tablet() {
+            height:270px;
+            width:400px;
+        }
+
+
+        @include Desktop1() {
+            height:170px;
+            width:300px;
+            margin-top:7rem;
+            ;
+        }
+
+        @include Desktop2() {
+            height:270px;
+            width:400px;
+            margin-top:7rem;
+        }
+        
+    }
+
+    .agricube-vigneto-largo-basso-80vlb-img {
+        background:url('./../../JM/carraro-logo/carraro.jpg');
+        background-size:cover;
+        background-position:center;
+        background-repeat: no-repeat;
+        height: 200px;
+        width:300px;
+        margin:0 auto;
+        margin-top:3rem;
+        margin-bottom:1rem;
+
+        @include Tablet {
+            height: 200px;
+            width:300px;
+            margin-top:3rem;
+        }
+
+        @include Desktop1 {
+            height: 200px;
+            width:300px;
+            margin-top:9rem;
+        }
+
+        @include Desktop2 {
+            height:280px;
+            width:400px;
+            margin-top:9rem;
+        }
+        
+    }
+
+    .agricube-vigneto-largo-basso-90vlb-img {
+        background:url('./../../JM/carraro-logo/carraro.jpg');
+        background-size:cover;
+        background-position:center;
+        background-repeat: no-repeat;
+        height: 200px;
+        width:300px;
+        margin:0 auto;
+        margin-top:1.3rem;
+        margin-bottom:1rem;
+
+        @include Tablet {
+            height: 200px;
+            width:300px;
+            margin-top:3rem;
+        }
+
+        @include Desktop1 {
+            height: 200px;
+            width:300px;
+            margin-top:9rem;
+        }
+
+        @include Desktop2 {
+            height:280px;
+            width:400px;
+            margin-top:9rem;
+        }
+        
+    }
+
+
+    .ursus-c-380-img {
+        background:url('./../../JM/Ursus/UrsusC-380.png');
+        background-size:cover;
+        background-position:center;
+        background-repeat: no-repeat;
+        height:240px;
+        width:300px;
+        margin:0 auto;
+        margin-top:3rem;
+
+        @include Tablet() {
+            height:240px;
+            width:300px;
+            margin-top:3rem;
+        }
+
+        @include Desktop1() {
+            height:240px;
+            width:300px;
+            margin-top:3rem;
+        }
+
+        @include Desktop2() {
+            height:300px;
+            width:400px;
+            margin-top:5rem;
+        }
+    }
+
+
+    .yto-x1304-img {
+        background:url('./../../JM/YTO/YTO-X1304.jpg');
+        background-size:cover;
+        background-position:center;
+        background-repeat: no-repeat;
+        height:220px;
+        width:280px;
+        margin:0 auto;
+        margin-top:3rem;
+
+        @include Tablet() {
+            height:260px;
+            width:350px;
+            margin-top:3rem;
+        }
+
+        @include Desktop1() {
+            height:250px;
+            width:320px;
+            margin-top:7rem;
+        }
+
+        @include Desktop2() {
+            height:300px;
+            width:400px;
+            margin-top:7rem;
+        }
+    }
+
+    .yto-x1204-img {
+        background:url('./../../JM/YTO/YTO-X1204.jpg');
+        background-size:cover;
+        background-position:center;
+        background-repeat: no-repeat;
+        height:220px;
+        width:280px;
+        margin:0 auto;
+        margin-top:3rem;
+
+        @include Tablet() {
+            height:260px;
+            width:350px;
+            margin-top:3rem;
+        }
+
+        @include Desktop1() {
+            height:250px;
+            width:320px;
+            margin-top:7rem;
+        }
+
+        @include Desktop2() {
+            height:300px;
+            width:400px;
+            margin-top:7rem;
+        }
+    }
+
+    .yto-x904-img {
+        background:url('./../../JM/YTO/YTO-X904.jpg');
+        background-size:cover;
+        background-position:center;
+        background-repeat: no-repeat;
+        height:220px;
+        width:280px;
+        margin:0 auto;
+        margin-top:3rem;
+
+        @include Tablet() {
+            height:260px;
+            width:350px;
+            margin-top:3rem;
+        }
+
+        @include Desktop1() {
+            height:240px;
+            width:320px;
+            margin-top:7rem;
+        }
+
+        @include Desktop2() {
+            height:300px;
+            width:400px;
+            margin-top:7rem;
+        }
+    }
+
+    .yto-x804-img {
+        background:url('./../../JM/YTO/YTO-X804.jpg');
+        background-size:cover;
+        background-position:center;
+        background-repeat: no-repeat;
+        height:220px;
+        width:280px;
+        margin:0 auto;
+        margin-top:3rem;
+
+        @include Tablet() {
+            height:260px;
+            width:350px;
+            margin-top:3rem;
+        }
+
+        @include Desktop1() {
+            height:250px;
+            width:320px;
+            margin-top:7rem;
+        }
+
+        @include Desktop2() {
+            height:300px;
+            width:400px;
+            margin-top:7rem;
+        }
+    }
+
+    .yto-554-img {
+        background:url('./../../JM/YTO/YTO-554.jpg');
+        background-size:cover;
+        background-position:center;
+        background-repeat: no-repeat;
+        height:220px;
+        width:280px;
+        margin:0 auto;
+        margin-top:3rem;
+
+        @include Tablet() {
+            height:260px;
+            width:350px;
+            margin-top:3rem;
+        }
+
+        @include Desktop1() {
+            height:250px;
+            width:320px;
+            margin-top:7rem;
+        }
+
+        @include Desktop2() {
+            height:300px;
+            width:400px;
+            margin-top:7rem;
+        }
+    }
+
+    .yto-504-img {
+        background:url('./../../JM/YTO/YTO-504.jpg');
+        background-size:cover;
+        background-position:center;
+        background-repeat: no-repeat;
+        height:220px;
+        width:280px;
+        margin:0 auto;
+        margin-top:3rem;
+
+        @include Tablet() {
+            height:260px;
+            width:350px;
+            margin-top:3rem;
+        }
+
+        @include Desktop1() {
+            height:250px;
+            width:320px;
+            margin-top:7rem;
+        }
+
+        @include Desktop2() {
+            height:300px;
+            width:400px;
+            margin-top:7rem;
+        }
+    }
+
+    .yto-354-img {
+        background:url('./../../JM/YTO/YTO-354.jpg');
+        background-size:cover;
+        background-position:center;
+        background-repeat: no-repeat;
+        height:220px;
+        width:280px;
+        margin:0 auto;
+        margin-top:3rem;
+
+        @include Tablet() {
+            height:260px;
+            width:350px;
+            margin-top:3rem;
+        }
+
+        @include Desktop1() {
+            height:250px;
+            width:320px;
+            margin-top:7rem;
+        }
+
+        @include Desktop2() {
+            height:300px;
+            width:400px;
+            margin-top:7rem;
+        }
+    }
+
+    .yto-454-img {
+        background:url('./../../JM/YTO/YTO-454.jpg');
+        background-size:cover;
+        background-position:center;
+        background-repeat: no-repeat;
+        height:220px;
+        width:280px;
+        margin:0 auto;
+        margin-top:3rem;
+
+        @include Tablet() {
+            height:260px;
+            width:350px;
+            margin-top:3rem;
+        }
+
+        @include Desktop1() {
+            height:250px;
+            width:320px;
+            margin-top:7rem;
+        }
+
+        @include Desktop2() {
+            height:300px;
+            width:400px;
+            margin-top:7rem;
+        }
+    }
+
+    .john-deere-5045-img {
+        background:url('./../../JM/JohnDeere/5045D.webp');
+        background-size:cover;
+        background-position:center;
+        background-repeat: no-repeat;
+        height:240px;
+        width:300px;
+        margin:0 auto;
+        margin-top:3rem;
+
+        @include Tablet() {
+            height:280px;
+            width:340px;
+            margin-top:3rem;
+        }
+
+        @include Desktop1() {
+            height:300px;
+            width:400px;
+            margin-top:0;
+        }
+
+        @include Desktop2() {
+            height:400px;
+            width:500px;
+            margin-top:3rem;
+        }
+    }
+
+    .john-deere-5075-img {
+        background:url('./../../JM/JohnDeere/5705.png');
+        background-size:cover;
+        background-position:center;
+        background-repeat: no-repeat;
+        height:240px;
+        width:300px;
+        margin:0 auto;
+        margin-top:3rem;
+
+        @include Tablet() {
+            height:280px;
+            width:340px;
+            margin-top:3rem;
+        }
+
+        @include Desktop1() {
+            height:300px;
+            width:400px;
+            margin-top:0;
+        }
+
+        @include Desktop2() {
+            height:400px;
+            width:500px;
+            margin-top:3rem;
+        }
+    }
+
+    .solis-26-img {
+        background:url('./../../JM/Solis/Traktor-solis-26-15.jpg');
+        background-size:cover;
+        background-position:center;
+        background-repeat: no-repeat;
+        height:240px;
+        width:300px;
+        margin:0 auto;
+        margin-top:3rem;
+
+        @include Tablet() {
+            height:280px;
+            width:340px;
+            margin-top:3rem;
+        }
+
+        @include Desktop1() {
+            height:300px;
+            width:400px;
+            margin-top:2rem;
+        }
+
+        @include Desktop2() {
+            height:400px;
+            width:500px;
+            margin-top:3rem;
+        }
+    }
+
+    .solis-20-img {
+        background:url('./../../JM/Solis/solis-20.jpg');
+        background-size:cover;
+        background-position:center;
+        background-repeat: no-repeat;
+        height:310px;
+        width:300px;
+        margin:0 auto;
+        margin-top:3rem;
+
+        @include Tablet() {
+            height:320px;
+            width:340px;
+            margin-top:3rem;
+        }
+
+        @include Desktop1() {
+            height:300px;
+            width:300px;
+            margin-top:5rem;
+        }
+
+        @include Desktop2() {
+            height:400px;
+            width:400px;
+            margin-top:5rem;
+        }
+    }
+
+    .solis-60nt-img {
+        background:url('./../../JM/Solis/solis-60n.png');
+        background-size:cover;
+        background-position:center;
+        background-repeat: no-repeat;
+        height:240px;
+        width:300px;
+        margin:0 auto;
+        margin-top:3rem;
+
+        @include Tablet() {
+            height:280px;
+            width:340px;
+            margin-top:3rem;
+        }
+
+        @include Desktop1() {
+            height:280px;
+            width:350px;
+            margin-top:1rem;
+        }
+
+        @include Desktop2() {
+            height:300px;
+            width:400px;
+            margin-top:3rem;
+        }
+    }
+
+    .solis-75nt-img {
+        background:url('./../../JM/Solis/solis-75n.jpg');
+        background-size:cover;
+        background-position:center;
+        background-repeat: no-repeat;
+        height:240px;
+        width:300px;
+        margin:0 auto;
+        margin-top:3rem;
+
+        @include Tablet() {
+            height:280px;
+            width:340px;
+            margin-top:3rem;
+        }
+
+        @include Desktop1() {
+            height:280px;
+            width:350px;
+            margin-top:1rem;
+        }
+
+        @include Desktop2() {
+            height:300px;
+            width:400px;
+            margin-top:3rem;
+        }
+    }
+
+    .solis-90nt-img {
+        background:url('./../../JM/Solis/solis-90n.jpg');
+        background-size:cover;
+        background-position:center;
+        background-repeat: no-repeat;
+        height:240px;
+        width:300px;
+        margin:0 auto;
+        margin-top:3rem;
+
+        @include Tablet() {
+            height:280px;
+            width:340px;
+            margin-top:3rem;
+        }
+
+        @include Desktop1() {
+            height:300px;
+            width:350px;
+            margin-top:2rem;
+        }
+
+        @include Desktop2() {
+            height:320px;
+            width:400px;
+            margin-top:4rem;
+        }
+    }
+
+
+    .solis-60-img {
+        background:url('./../../JM/Solis/solis-60.jpg');
+        background-size:cover;
+        background-position:center;
+        background-repeat: no-repeat;
+        height:240px;
+        width:300px;
+        margin:0 auto;
+        margin-top:3rem;
+
+        @include Tablet() {
+            height:280px;
+            width:340px;
+            margin-top:3rem;
+        }
+
+        @include Desktop1() {
+            height:300px;
+            width:350px;
+            margin-top:2rem;
+        }
+
+        @include Desktop2() {
+            height:300px;
+            width:400px;
+            margin-top:5rem;
+        }
+    }
+
+
+    .solis-75-img {
+        background:url('./../../JM/Solis/solis-75.jpg');
+        background-size:cover;
+        background-position:center;
+        background-repeat: no-repeat;
+        height:240px;
+        width:300px;
+        margin:0 auto;
+        margin-top:3rem;
+
+        @include Tablet() {
+            height:280px;
+            width:340px;
+            margin-top:3rem;
+        }
+
+        @include Desktop1() {
+            height:300px;
+            width:350px;
+            margin-top:2rem;
+        }
+
+        @include Desktop2() {
+            height:300px;
+            width:400px;
+            margin-top:5rem;
+        }
+    }
+
+    .solis-90-img {
+        background:url('./../../JM/Solis/solis-90.jpg');
+        background-size:cover;
+        background-position:center;
+        background-repeat: no-repeat;
+        height:240px;
+        width:300px;
+        margin:0 auto;
+        margin-top:3rem;
+
+        @include Tablet() {
+            height:280px;
+            width:340px;
+            margin-top:3rem;
+        }
+
+        @include Desktop1() {
+            height:300px;
+            width:350px;
+            margin-top:3rem;
+        }
+
+        @include Desktop2() {
+            height:300px;
+            width:400px;
+            margin-top:5rem;
+        }
+    }
+
+    .solis-50-img {
+        background:url('./../../JM/Solis/solis-50.jpg');
+        background-size:cover;
+        background-position:center;
+        background-repeat: no-repeat;
+        height:260px;
+        width:300px;
+        margin:0 auto;
+        margin-top:3rem;
+
+        @include Tablet() {
+            height:280px;
+            width:340px;
+            margin-top:3rem;
+        }
+
+        @include Desktop1() {
+            height:300px;
+            width:350px;
+            margin-top:5rem;
+        }
+
+        @include Desktop2() {
+            height:350px;
+            width:400px;
+            margin-top:6rem;
+        }
+    }
+
+    .belarus-1221-img {
+        background:url('./../../JM/Belarus/B1221.jpg');
+        background-size:cover;
+        background-position:center;
+        background-repeat: no-repeat;
+        height:260px;
+        width:300px;
+        margin:0 auto;
+        margin-top:3rem;
+
+        @include Tablet() {
+            height:280px;
+            width:340px;
+            margin-top:3rem;
+        }
+
+        @include Desktop1() {
+            height:300px;
+            width:350px;
+            margin-top:0rem;
+        }
+
+        @include Desktop2() {
+            height:350px;
+            width:400px;
+            margin-top:3rem;
+        }
+    }
+
+    .belarus-1021-img {
+        background:url('./../../JM/Belarus/B1021.jpg');
+        background-size:cover;
+        background-position:center;
+        background-repeat: no-repeat;
+        height:260px;
+        width:300px;
+        margin:0 auto;
+        margin-top:3rem;
+
+        @include Tablet() {
+            height:280px;
+            width:340px;
+            margin-top:3rem;
+        }
+
+        @include Desktop1() {
+            height:300px;
+            width:350px;
+            margin-top:0rem;
+        }
+
+        @include Desktop2() {
+            height:350px;
+            width:400px;
+            margin-top:3rem;
+        }
+    }
+
+    .belarus-1021mb-img {
+        background:url('./../../JM/Belarus/B1021MB.jpg');
+        background-size:cover;
+        background-position:center;
+        background-repeat: no-repeat;
+        height:260px;
+        width:300px;
+        margin:0 auto;
+        margin-top:3rem;
+
+        @include Tablet() {
+            height:280px;
+            width:340px;
+            margin-top:3rem;
+        }
+
+        @include Desktop1() {
+            height:300px;
+            width:350px;
+            margin-top:0rem;
+        }
+
+        @include Desktop2() {
+            height:350px;
+            width:400px;
+            margin-top:3rem;
+        }
+    }
+
+    .belarus-892rm-img {
+        background:url('./../../JM/Belarus/B892.jpg');
+        background-size:cover;
+        background-position:center;
+        background-repeat: no-repeat;
+        height:260px;
+        width:300px;
+        margin:0 auto;
+        margin-top:3rem;
+
+        @include Tablet() {
+            height:280px;
+            width:340px;
+            margin-top:3rem;
+        }
+
+        @include Desktop1() {
+            height:300px;
+            width:350px;
+            margin-top:0rem;
+        }
+
+        @include Desktop2() {
+            height:350px;
+            width:400px;
+            margin-top:3rem;
+        }
+    }
+
+    .belarus-820rm-img {
+        background:url('./../../JM/Belarus/B820.jpg');
+        background-size:cover;
+        background-position:center;
+        background-repeat: no-repeat;
+        height:260px;
+        width:300px;
+        margin:0 auto;
+        margin-top:3rem;
+
+        @include Tablet() {
+            height:280px;
+            width:340px;
+            margin-top:3rem;
+        }
+
+        @include Desktop1() {
+            height:300px;
+            width:350px;
+            margin-top:0rem;
+        }
+
+        @include Desktop2() {
+            height:350px;
+            width:400px;
+            margin-top:3rem;
+        }
+    }
+
+    .belarus-82-img {
+        background:url('./../../JM/Belarus/B82.jpg');
+        background-size:cover;
+        background-position:center;
+        background-repeat: no-repeat;
+        height:260px;
+        width:300px;
+        margin:0 auto;
+        margin-top:3rem;
+
+        @include Tablet() {
+            height:280px;
+            width:340px;
+            margin-top:3rem;
+        }
+
+        @include Desktop1() {
+            height:300px;
+            width:350px;
+            margin-top:0;
+        }
+
+        @include Desktop2() {
+            height:350px;
+            width:400px;
+            margin-top:2rem;
+        }
+    }
+
+    .zetor-proxima-power-90-img {
+        background:url('./../../JM/Zetor/zetor-proxima-power.jpg');
+        background-size:cover;
+        background-position:center;
+        background-repeat: no-repeat;
+        height:260px;
+        width:300px;
+        margin:0 auto;
+        margin-top:3rem;
+
+        @include Tablet() {
+            height:280px;
+            width:340px;
+            margin-top:3rem;
+        }
+
+        @include Desktop1() {
+            height:300px;
+            width:350px;
+            margin-top:1rem;
+        }
+
+        @include Desktop2() {
+            height:350px;
+            width:400px;
+            margin-top:3rem;
+        }
+    }
+
+    .zetor-proxima-power-100-img {
+        background:url('./../../JM/Zetor/zetor-proxima-power.jpg');
+        background-size:cover;
+        background-position:center;
+        background-repeat: no-repeat;
+        height:260px;
+        width:300px;
+        margin:0 auto;
+        margin-top:3rem;
+
+        @include Tablet() {
+            height:280px;
+            width:340px;
+            margin-top:3rem;
+        }
+
+        @include Desktop1() {
+            height:300px;
+            width:350px;
+            margin-top:1rem;
+        }
+
+        @include Desktop2() {
+            height:350px;
+            width:400px;
+            margin-top:3rem;
+        }
+    }
+
+    .zetor-proxima-power-110-img {
+        background:url('./../../JM/Zetor/zetor-proxima-power.jpg');
+        background-size:cover;
+        background-position:center;
+        background-repeat: no-repeat;
+        height:260px;
+        width:300px;
+        margin:0 auto;
+        margin-top:3rem;
+
+        @include Tablet() {
+            height:280px;
+            width:340px;
+            margin-top:3rem;
+        }
+
+        @include Desktop1() {
+            height:300px;
+            width:350px;
+            margin-top:1rem;
+        }
+
+        @include Desktop2() {
+            height:350px;
+            width:400px;
+            margin-top:3rem;
+        }
+    }
+
+    .zetor-proxima-power-120-img {
+        background:url('./../../JM/Zetor/zetor-proxima-power.jpg');
+        background-size:cover;
+        background-position:center;
+        background-repeat: no-repeat;
+        height:260px;
+        width:300px;
+        margin:0 auto;
+        margin-top:3rem;
+
+        @include Tablet() {
+            height:280px;
+            width:340px;
+            margin-top:3rem;
+        }
+
+        @include Desktop1() {
+            height:300px;
+            width:350px;
+            margin-top:1rem;
+        }
+
+        @include Desktop2() {
+            height:350px;
+            width:400px;
+            margin-top:3rem;
+        }
+    }
+
+    .zetor-proxima-80-img {
+        background:url('./../../JM/Zetor/zetor-proxima-power.jpg');
+        background-size:cover;
+        background-position:center;
+        background-repeat: no-repeat;
+        height:260px;
+        width:300px;
+        margin:0 auto;
+        margin-top:3rem;
+
+        @include Tablet() {
+            height:280px;
+            width:340px;
+            margin-top:3rem;
+        }
+
+        @include Desktop1() {
+            height:300px;
+            width:350px;
+            margin-top:1rem;
+        }
+
+        @include Desktop2() {
+            height:350px;
+            width:400px;
+            margin-top:3rem;
+        }
+    }
+
+    .zetor-proxima-90-img {
+        background:url('./../../JM/Zetor/zetor-proxima-power.jpg');
+        background-size:cover;
+        background-position:center;
+        background-repeat: no-repeat;
+        height:260px;
+        width:300px;
+        margin:0 auto;
+        margin-top:3rem;
+
+        @include Tablet() {
+            height:280px;
+            width:340px;
+            margin-top:3rem;
+        }
+
+        @include Desktop1() {
+            height:300px;
+            width:350px;
+            margin-top:1rem;
+        }
+
+        @include Desktop2() {
+            height:350px;
+            width:400px;
+            margin-top:3rem;
+        }
+    }
+
+    .zetor-proxima-100-img {
+        background:url('./../../JM/Zetor/zetor-proxima-power.jpg');
+        background-size:cover;
+        background-position:center;
+        background-repeat: no-repeat;
+        height:260px;
+        width:300px;
+        margin:0 auto;
+        margin-top:3rem;
+
+        @include Tablet() {
+            height:280px;
+            width:340px;
+            margin-top:3rem;
+        }
+
+        @include Desktop1() {
+            height:300px;
+            width:350px;
+            margin-top:1rem;
+        }
+
+        @include Desktop2() {
+            height:350px;
+            width:400px;
+            margin-top:3rem;
+        }
+    }
+
+    .zetor-proxima-100-img {
+        background:url('./../../JM/Zetor/zetor-proxima-power.jpg');
+        background-size:cover;
+        background-position:center;
+        background-repeat: no-repeat;
+        height:260px;
+        width:300px;
+        margin:0 auto;
+        margin-top:3rem;
+
+        @include Tablet() {
+            height:280px;
+            width:340px;
+            margin-top:3rem;
+        }
+
+        @include Desktop1() {
+            height:300px;
+            width:350px;
+            margin-top:1rem;
+        }
+
+        @include Desktop2() {
+            height:350px;
+            width:400px;
+            margin-top:3rem;
+        }
+    }
+
+
+    .zetor-major-80-img{
+        background:url('./../../JM/Zetor/zetor-proxima-major.jpg');
+        background-size:cover;
+        background-position:center;
+        background-repeat: no-repeat;
+        height:260px;
+        width:300px;
+        margin:0 auto;
+        margin-top:3rem;
+
+        @include Tablet() {
+            height:280px;
+            width:340px;
+            margin-top:3rem;
+        }
+
+        @include Desktop1() {
+            height:300px;
+            width:350px;
+            margin-top:1rem;
+        }
+
+        @include Desktop2() {
+            height:350px;
+            width:400px;
+            margin-top:3rem;
+        }
+    }
+
+    .mahindra-475-di-mkm-img{
+        background:url('./../../JM/Mahindra/475mkm.jpg');
+        background-size:cover;
+        background-position:center;
+        background-repeat: no-repeat;
+        height:260px;
+        width:300px;
+        margin:0 auto;
+        margin-top:3rem;
+
+        @include Tablet() {
+            height:280px;
+            width:340px;
+            margin-top:3rem;
+        }
+
+        @include Desktop1() {
+            height:300px;
+            width:350px;
+            margin-top:1rem;
+        }
+
+        @include Desktop2() {
+            height:350px;
+            width:400px;
+            margin-top:4rem;
+        }
+    }
+
+    .mahindra-7030-img{
+        background:url('./../../JM/Mahindra/mahindra-70301.jpg');
+        background-size:cover;
+        background-position:center;
+        background-repeat: no-repeat;
+        height:260px;
+        width:300px;
+        margin:0 auto;
+        margin-top:3rem;
+
+        @include Tablet() {
+            height:280px;
+            width:340px;
+            margin-top:3rem;
+        }
+
+        @include Desktop1() {
+            height:300px;
+            width:350px;
+            margin-top:1rem;
+        }
+
+        @include Desktop2() {
+            height:350px;
+            width:400px;
+            margin-top:3rem;
+        }
+    }
+
+    .mahindra-595-img{
+        background:url('./../../JM/Mahindra/595mkm.jpg');
+        background-size:cover;
+        background-position:center;
+        background-repeat: no-repeat;
+        height:260px;
+        width:300px;
+        margin:0 auto;
+        margin-top:3rem;
+
+        @include Tablet() {
+            height:280px;
+            width:340px;
+            margin-top:3rem;
+        }
+
+        @include Desktop1() {
+            height:300px;
+            width:350px;
+            margin-top:1rem;
+        }
+
+        @include Desktop2() {
+            height:350px;
+            width:400px;
+            margin-top:3rem;
+        }
+    }
+
+    .imt-565-2-di-img{
+        background:url('./../../JM/IMT/imt565.jpg');
+        background-size:cover;
+        background-position:center;
+        background-repeat: no-repeat;
+        height:260px;
+        width:300px;
+        margin:0 auto;
+        margin-top:3rem;
+
+        @include Tablet() {
+            height:280px;
+            width:340px;
+            margin-top:3rem;
+        }
+
+        @include Desktop1() {
+            height:300px;
+            width:350px;
+            margin-top:1rem;
+        }
+
+        @include Desktop2() {
+            height:350px;
+            width:400px;
+            margin-top:3rem;
+        }
+    }
+
+    .imt-549-3-di-img{
+        background:url('./../../JM/IMT/imt549.jpg');
+        background-size:cover;
+        background-position:center;
+        background-repeat: no-repeat;
+        height:260px;
+        width:300px;
+        margin:0 auto;
+        margin-top:3rem;
+
+        @include Tablet() {
+            height:280px;
+            width:340px;
+            margin-top:3rem;
+        }
+
+        @include Desktop1() {
+            height:300px;
+            width:350px;
+            margin-top:1rem;
+        }
+
+        @include Desktop2() {
+            height:350px;
+            width:400px;
+            margin-top:3rem;
+        }
+    }
+
+    .imt-539-2-di-img{
+        background:url('./../../JM/IMT/imt539.jpg');
+        background-size:cover;
+        background-position:center;
+        background-repeat: no-repeat;
+        height:260px;
+        width:300px;
+        margin:0 auto;
+        margin-top:3rem;
+
+        @include Tablet() {
+            height:280px;
+            width:340px;
+            margin-top:3rem;
+        }
+
+        @include Desktop1() {
+            height:300px;
+            width:350px;
+            margin-top:1rem;
+        }
+
+        @include Desktop2() {
+            height:350px;
+            width:400px;
+            margin-top:3rem;
+        }
+    }
+
+    .imt-539-3-di-img{
+        background:url('./../../JM/IMT/imt539.jpg');
+        background-size:cover;
+        background-position:center;
+        background-repeat: no-repeat;
+        height:260px;
+        width:300px;
+        margin:0 auto;
+        margin-top:3rem;
+
+        @include Tablet() {
+            height:280px;
+            width:340px;
+            margin-top:3rem;
+        }
+
+        @include Desktop1() {
+            height:300px;
+            width:350px;
+            margin-top:1rem;
+        }
+
+        @include Desktop2() {
+            height:350px;
+            width:400px;
+            margin-top:3rem;
+        }
+    }
+
+    // ---------------------------------------------------------------------------------------------- //
+
+    .product-page-info {
+        width:80%;
+        margin:0 auto;
+        
+       
+
+        @include Desktop1() {
+            width:90%;
+            
+        }
+
+        @include Desktop2() {
+            margin-top:4rem;
+            height:50%;
+        }
+        
+        
+
+
+        h2 {
+            font-size:2rem;
+            padding:1rem 0;
+            color:$black;
+            font-weight:500;
+           
+        }
+
+        p {
+            color:$font !important;
+            padding:2rem 0 3rem 0;
+            font-size:1rem;
+            line-height:27px !important;
+            font-weight:400 !important;
+
+
+            @include Desktop1() {
+                padding:1rem 0 2rem 0;
+            }
+        }
+
+        .product-page-li {
+            display:flex;
+            flex-direction:column;
+            width:250px;
+            text-align:center;
+            
+            @include Tablet() {
+                width:fit-content !important;
+                flex-direction:row !important;
+            }
+
+            @include Desktop1() {
+                width:fit-content !important;
+                flex-direction:row !important;
+            }
+
+            @include Desktop2() {
+                width:fit-content !important;
+                flex-direction:row !important;
+            }
+           
+
+            .nazad {
+                color:$red;
+                border:1px solid $red;
+                transition:all .3s ease;
+                box-shadow:none;
+                
+
+                @include Tablet {
+                    height: fit-content;
+                }
+
+                @include Desktop1() {
+                    height: fit-content;
+                }
+
+                @include Desktop2() {
+                    height: fit-content;
+                }
+            }
+
+            .nazad:hover {
+                box-shadow:0px 0px 10px rgba(86, 0, 0, 0.4);
+            }
+
+            .ponuda {
+                background:$red;
+                color:#fff;
+                border:none;
+                transition:all .3s linear;
+                margin-bottom:1rem;
+            }
+
+            .ponuda:hover {
+                background:#460002;
+            }
+        }
+    }
+
+
+}
+
+
+
+// .teh-spec {
+//     padding:1rem;
+//     border:1px solid red;
+
+//     @include Desktop1() {
+//         margin:0 auto;
+        
+//     }
+
+//     @include Desktop2() {
+//         margin: 0 auto;
+        
+//     }
+// }
+
+.main-table-container {
+    padding:1rem 1rem;
+
+    @include Desktop1() {
+        width:900px;
+        margin:0 auto;
+    }
+
+    @include Desktop2() {
+        width:1100px;
+        margin:0 auto;
+    }
+}
