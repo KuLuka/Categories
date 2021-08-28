@@ -1,0 +1,912 @@
+
+$red:#EA1C24;
+$black:#292929;
+$gray:#4C4C4C;
+
+
+@mixin miniTablet-Logo {
+    @media(min-width:600px) and (max-width:700px) {@content;}
+}
+
+@mixin Tablet-Logo {
+    @media(min-width:700px) and (max-width:899px) {@content;}
+}
+
+@mixin Tablet  {
+    @media(min-width:600px)and (max-width:899px) {@content;}
+}
+
+@mixin Desktop1 {
+    @media(min-width:900px) and (max-width:1290px) {@content};
+}
+
+@mixin Desktop2 {
+    @media(min-width:1291px) {@content}
+}
+
+
+
+.motalica-z237-img {
+    background: url('./../../JM/Stocarstvo/Motalice/z237.png');
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    width:150px;
+    height:150px;
+    margin:0 auto;
+
+   // 600-700px
+   @include miniTablet-Logo() {
+    width:250px;
+    height:200px;
+    
+}
+
+// 700-899px
+@include Tablet-Logo() {
+    width:300px;
+    height:150px;
+    
+}
+
+
+@include Desktop1() {
+    width:250px;
+    height:180px
+    
+}
+
+@include Desktop2() {
+    width:400px;
+    height:200px;
+}
+}
+.motalica-z560-img {
+    background: url('./../../JM/Stocarstvo/Motalice/z560.png');
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    width:150px;
+    height:150px;
+    margin:0 auto;
+
+   // 600-700px
+   @include miniTablet-Logo() {
+    width:250px;
+    height:200px;
+    
+}
+
+// 700-899px
+@include Tablet-Logo() {
+    width:300px;
+    height:150px;
+    
+}
+
+
+@include Desktop1() {
+    width:250px;
+    height:180px
+    
+}
+
+@include Desktop2() {
+    width:350px;
+    height:200px;
+}
+}
+.motalica-z577-img {
+    background: url('./../../JM/Stocarstvo/Motalice/z577.png');
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    width:150px;
+    height:100px;
+    margin:0 auto;
+
+   // 600-700px
+   @include miniTablet-Logo() {
+    width:250px;
+    height:180px;
+    
+}
+
+// 700-899px
+@include Tablet-Logo() {
+    width:300px;
+    height:150px;
+    
+}
+
+
+@include Desktop1() {
+    width:250px;
+    height:180px
+    
+}
+
+@include Desktop2() {
+    width:350px;
+    height:200px;
+}
+}
+
+    .diskaste-kosacice-comer-img {
+            background: url('./../../JM/Stocarstvo/Kosacice/diskaste-kosacice.jpg');
+            background-size:cover;
+            background-position:center;
+            background-repeat:no-repeat;
+            width:130px;
+            height:60px;
+            margin:0 auto;
+
+           // 600-700px
+           @include miniTablet-Logo() {
+            width:130px;
+            height:60px;
+            
+        }
+
+        // 700-899px
+        @include Tablet-Logo() {
+            width:230px;
+            height:120px;
+        }
+
+
+        @include Desktop1() {
+            width:230px;
+            height:120px;
+        }
+
+        @include Desktop2() {
+            width:300px;
+            height:150px;
+        }
+        }
+
+        .diskaste-kosacite-fpm-img {
+            background: url('./../../JM/Stocarstvo/Kosacice/diskaste_fpm_glavna.jpg');
+            background-size:cover;
+            background-position:center;
+            background-repeat:no-repeat;
+            width:130px;
+            height:60px;
+            margin:0 auto;
+
+           // 600-700px
+           @include miniTablet-Logo() {
+            width:130px;
+            height:60px;
+            
+        }
+
+        // 700-899px
+        @include Tablet-Logo() {
+            width:230px;
+            height:120px;
+        }
+
+
+        @include Desktop1() {
+            width:230px;
+            height:120px;
+        }
+
+        @include Desktop2() {
+            width:300px;
+            height:150px;
+        }
+        }
+
+
+        .silvercut-disc-img {
+            background: url('./../../JM/Stocarstvo/Kosacice/silvercut-sip.jpg');
+            background-size:cover;
+            background-position:center;
+            background-repeat:no-repeat;
+            width:130px;
+            height:100px;
+            margin:0 auto;
+
+           // 600-700px
+           @include miniTablet-Logo() {
+            width:130px;
+            height:100px;
+        }
+
+        // 700-899px
+        @include Tablet-Logo() {
+            width:250px;
+            height:180px;
+        }
+
+
+        @include Desktop1() {
+            width:250px;
+            height:180px;
+        }
+
+        @include Desktop2() {
+            width:300px;
+            height:200px;
+        }
+        }
+
+        .silvercut-disc-270-img {
+            background: url('./../../JM/Stocarstvo/Kosacice/sip-270.jpg');
+            background-size:cover;
+            background-position:center;
+            background-repeat:no-repeat;
+            width:130px;
+            height:100px;
+            margin:0 auto;
+
+           // 600-700px
+           @include miniTablet-Logo() {
+            width:130px;
+            height:100px;
+            
+        }
+
+        // 700-899px
+        @include Tablet-Logo() {
+            width:250px;
+            height:180px;
+        }
+
+
+        @include Desktop1() {
+            width:250px;
+            height:180px;
+        }
+
+        @include Desktop2() {
+            width:300px;
+            height:200px;
+        }
+        }
+
+        .roto-kosacica-disc-220-img {
+            background: url('./../../JM/Stocarstvo/Kosacice/sip-220.jpg');
+            background-size:cover;
+            background-position:center;
+            background-repeat:no-repeat;
+            width:130px;
+            height:100px;
+            margin:0 auto;
+
+           // 600-700px
+           @include miniTablet-Logo() {
+            width:130px;
+            height:100px;
+            
+        }
+
+        // 700-899px
+        @include Tablet-Logo() {
+            width:250px;
+            height:180px;
+            
+        }
+
+
+        @include Desktop1() {
+            width:250px;
+            height:180px;
+            
+        }
+
+        @include Desktop2() {
+            width:300px;
+            height:200px;
+        }
+        }
+
+        .silvercut-disc-300-f-rc-img {
+            background: url('./../../JM/Stocarstvo/Kosacice/sip-300.jpg');
+            background-size:cover;
+            background-position:center;
+            background-repeat:no-repeat;
+            width:130px;
+            height:100px;
+            margin:0 auto;
+
+           // 600-700px
+           @include miniTablet-Logo() {
+            width:130px;
+            height:100px;
+        }
+
+        // 700-899px
+        @include Tablet-Logo() {
+            width:250px;
+            height:180px;
+            
+        }
+
+
+        @include Desktop1() {
+            width:250px;
+            height:180px;
+            
+        }
+
+        @include Desktop2() {
+            width:300px;
+            height:200px;
+        }
+        }
+
+        .disc-260-s-alp-img {
+            background: url('./../../JM/Stocarstvo/Kosacice/sip-260.jpg');
+            background-size:cover;
+            background-position:center;
+            background-repeat:no-repeat;
+            width:130px;
+            height:100px;
+            margin:0 auto;
+
+           // 600-700px
+           @include miniTablet-Logo() {
+            width:130px;
+            height:100px;
+            
+        }
+
+        // 700-899px
+        @include Tablet-Logo() {
+            width:250px;
+            height:180px;
+            
+        }
+
+
+        @include Desktop1() {
+            width:250px;
+            height:180px;
+            
+        }
+
+        @include Desktop2() {
+            width:300px;
+            height:200px;
+        }
+        }
+
+        .silvercut-disc-300-img {
+            background: url('./../../JM/Stocarstvo/Kosacice/silvercut-300-s-rc.jpg');
+            background-size:cover;
+            background-position:center;
+            background-repeat:no-repeat;
+            width:130px;
+            height:100px;
+            margin:0 auto;
+
+           // 600-700px
+           @include miniTablet-Logo() {
+            width:130px;
+            height:100px;
+        }
+
+        // 700-899px
+        @include Tablet-Logo() {
+            width:250px;
+            height:180px;
+            
+        }
+
+
+        @include Desktop1() {
+            width:250px;
+            height:180px;
+            
+        }
+
+        @include Desktop2() {
+            width:300px;
+            height:200px;
+        }
+        }
+
+        .rotacona-kosacica-wirax-img {
+            background: url('./../../JM/Stocarstvo/Kosacice/wirax.jpg');
+            background-size:cover;
+            background-position:center;
+            background-repeat:no-repeat;
+            width:130px;
+            height:50px;
+            margin:0 auto;
+            margin-bottom:1rem;
+
+           // 600-700px
+           @include miniTablet-Logo() {
+            width:130px;
+            height:50px;
+            margin-top:3rem;
+        }
+
+        // 700-899px
+        @include Tablet-Logo() {
+            width:250px;
+            height:80px;
+            margin-top:2rem;
+        }
+
+
+        @include Desktop1() {
+            width:250px;
+            height:80px;
+            
+        }
+
+        @include Desktop2() {
+            width:300px;
+            height:100px;
+        }
+        }
+
+        .rotaciona-kosacica-minos-img {
+            background: url('./../../JM/Stocarstvo/Kosacice/rotaciona-minos.jpg');
+            background-size:cover;
+            background-position:center;
+            background-repeat:no-repeat;
+            width:130px;
+            height:90px;
+            margin:0 auto;
+            background-position-y: -2rem;
+            
+            
+
+           // 600-700px
+           @include miniTablet-Logo() {
+            width:250px;
+            height:80px;
+            
+        }
+
+        // 700-899px
+        @include Tablet-Logo() {
+            width:250px;
+            height:100px;
+            margin-top:2rem;
+        }
+
+
+        @include Desktop1() {
+            width:250px;
+            height:100px;
+        }
+
+        @include Desktop2() {
+            width:300px;
+            height:200px;
+
+            
+        }
+        }
+
+
+        .rotaciona-kosacica-celmak-img {
+            background: url('./../../JM/Stocarstvo/Kosacice/celmak-rotaciona.jpg');
+            background-size:cover;
+            background-position:center;
+            background-repeat:no-repeat;
+            width:130px;
+            height:70px;
+            margin:0 auto;
+
+           // 600-700px
+           @include miniTablet-Logo() {
+            width:130px;
+            height:70px;
+            margin-top:3rem;
+        }
+
+        // 700-899px
+        @include Tablet-Logo() {
+            width:180px;
+            height:100px;
+            margin-top:2rem;
+        }
+
+
+        @include Desktop1() {
+            width:180px;
+            height:100px;
+            
+        }
+
+        @include Desktop2() {
+            width:300px;
+            height:200px;
+        }
+        }
+
+        .rotaciona-kosacica-agrisprint-img {
+            background: url('./../../JM/Stocarstvo/Kosacice/agrisprint.jpg');
+            background-size:cover;
+            background-position:center;
+            background-repeat:no-repeat;
+            width:130px;
+            height:50px;
+            margin:0 auto;
+
+           // 600-700px
+           @include miniTablet-Logo() {
+            width:130px;
+            height:50px;
+            margin-top:3rem;
+        }
+
+        // 700-899px
+        @include Tablet-Logo() {
+            width:250px;
+            height:100px;
+            margin-top:2rem;
+        }
+
+
+        @include Desktop1() {
+            width:250px;
+            height:100px;
+        }
+
+        @include Desktop2() {
+            width:400px;
+            height:200px;
+            background-position-y:1rem;
+        }
+        }
+
+
+        .rotacioni-sakupljac-850-26-t-img {
+            background: url('./../../JM/Stocarstvo/Sakupljaci/SIP-850-26.jpg');
+            background-size:cover;
+            background-position:center;
+            background-repeat:no-repeat;
+            width:150px;
+            height:150px;
+            margin:0 auto;
+
+           // 600-700px
+           @include miniTablet-Logo() {
+            width:150px;
+            height:150px;
+            
+        }
+
+        // 700-899px
+        @include Tablet-Logo() {
+            width:150px;
+            height:150px;
+            
+        }
+
+
+        @include Desktop1() {
+            width:250px;
+            height:250px;
+            
+        }
+
+        @include Desktop2() {
+            width:250px;
+            height:250px;
+        }
+        }
+
+        .rotacioni-sakupljac-600-20t-img {
+            background: url('./../../JM/Stocarstvo/Sakupljaci/SIP-600-20.jpg');
+            background-size:cover;
+            background-position:center;
+            background-repeat:no-repeat;
+            width:150px;
+            height:150px;
+            margin:0 auto;
+
+           // 600-700px
+           @include miniTablet-Logo() {
+            width:150px;
+            height:150px;
+            
+        }
+
+        // 700-899px
+        @include Tablet-Logo() {
+            width:150px;
+            height:150px;
+            
+        }
+
+
+        @include Desktop1() {
+            width:250px;
+            height:250px;
+            
+        }
+
+        @include Desktop2() {
+            width:250px;
+            height:250px;
+        }
+        }
+
+        .rotacioni-jedan-rotor-img {
+            background: url('./../../JM/Stocarstvo/Sakupljaci/SIP-rotor.jpg');
+            background-size:cover;
+            background-position:center;
+            background-repeat:no-repeat;
+            width:150px;
+            height:150px;
+            margin:0 auto;
+
+           // 600-700px
+           @include miniTablet-Logo() {
+            width:150px;
+            height:150px;
+            
+        }
+
+        // 700-899px
+        @include Tablet-Logo() {
+            width:150px;
+            height:150px;
+            
+        }
+
+
+        @include Desktop1() {
+            width:250px;
+            height:250px;
+            
+        }
+
+        @include Desktop2() {
+            width:250px;
+            height:250px;
+        }
+        }
+
+        .sunce-4-sabirna-tocka-img {
+            background: url('./../../JM/Stocarstvo/Sakupljaci/termometal.jpg');
+            background-size:cover;
+            background-position:center;
+            background-repeat:no-repeat;
+            width:150px;
+            height:100px;
+            margin:0 auto;
+
+           // 600-700px
+           @include miniTablet-Logo() {
+            width:150px;
+            height:100px;
+            
+        }
+
+        // 700-899px
+        @include Tablet-Logo() {
+            width:250px;
+            height:200px;
+            
+        }
+
+
+        @include Desktop1() {
+            width:250px;
+            height:200px;
+            
+        }
+
+        @include Desktop2() {
+            width:250px;
+            height:200px;
+        }
+        }
+
+        .sakupljac-sena-sunce-fpm {
+            background: url('./../../JM/Stocarstvo/Sakupljaci/sakupljac-fpm.jpg');
+            background-size:cover;
+            background-position:center;
+            background-repeat:no-repeat;
+            width:150px;
+            height:80px;
+            margin:0 auto;
+
+           // 600-700px
+           @include miniTablet-Logo() {
+            width:150px;
+            height:80px;
+            margin-top:4rem;
+            
+        }
+
+        // 700-899px
+        @include Tablet-Logo() {
+            width:250px;
+            height:130px;
+            
+        }
+
+
+        @include Desktop1() {
+            width:250px;
+            height:130px;
+            
+        }
+
+        @include Desktop2() {
+            width:250px;
+            height:130px;
+        }
+        }
+
+
+        .hidraulicni-utovarivac-img {
+            background: url('./../../JM/Stocarstvo/Uterivac/hidraulicni-utovarivac.jpg');
+            background-size:cover;
+            background-position:center;
+            background-repeat:no-repeat;
+            width:200px;
+            height:180px;
+            margin:0 auto;
+
+           // 600-700px
+           @include miniTablet-Logo() {
+            width:200px;
+            height:180px;
+            margin-top:2rem;
+            
+        }
+
+        // 700-899px
+        @include Tablet-Logo() {
+            width:200px;
+            height:180px;
+        }
+
+
+        @include Desktop1() {
+            width:200px;
+            height:180px;
+            
+        }
+
+        @include Desktop2() {
+            width:200px;
+            height:180px;
+        }
+        }
+
+        .balirka-img {
+            background: url('./../../JM/Stocarstvo/Balirke/ursus-543.jpg');
+            background-size:cover;
+            background-position:center;
+            background-repeat:no-repeat;
+            width:200px;
+            height:150px;
+            margin:0 auto;
+
+           // 600-700px
+           @include miniTablet-Logo() {
+            width:300px;
+            height:250px;
+           
+            
+        }
+
+        // 700-899px
+        @include Tablet-Logo() {
+            width:300px;
+            height:250px;
+            
+        }
+
+
+        @include Desktop1() {
+            width:300px;
+            height:250px;
+            
+        }
+
+        @include Desktop2() {
+            width:300px;
+            height:250px;
+        }
+        }
+
+        .spider-455-img {
+            background: url('./../../JM/Stocarstvo/Rasturaci/spider45front.jpg');
+            background-size:cover;
+            background-position:center;
+            background-repeat:no-repeat;
+            width:200px;
+            height:200px;
+            margin:0 auto;
+
+           // 600-700px
+           @include miniTablet-Logo() {
+            width:200px;
+            height:200px;
+           
+            
+        }
+
+        // 700-899px
+        @include Tablet-Logo() {
+            width:200px;
+            height:200px;
+            
+        }
+
+
+        @include Desktop1() {
+            width:250px;
+            height:250px;
+            
+        }
+
+        @include Desktop2() {
+            width:250px;
+            height:250px;
+        }
+        }
+
+        .spider-815-img {
+            background: url('./../../JM/Stocarstvo/Rasturaci/spider815.jpg');
+            background-size:cover;
+            background-position:center;
+            background-repeat:no-repeat;
+            width:200px;
+            height:200px;
+            margin:0 auto;
+
+           // 600-700px
+           @include miniTablet-Logo() {
+            width:200px;
+            height:200px;
+           
+            
+        }
+
+        // 700-899px
+        @include Tablet-Logo() {
+            width:200px;
+            height:200px;
+            
+        }
+
+
+        @include Desktop1() {
+            width:250px;
+            height:250px;
+            
+        }
+
+        @include Desktop2() {
+            width:250px;
+            height:250px;
+        }
+        }
+
+        // ------------------------------------------------------------------------------------------------- //
+
+     
+.teh-spec {
+    @include Desktop1() {
+        margin:0 auto;
+        display:flex;
+        flex-direction:column;
+        width:800px;
+        
+    }
+
+    @include Desktop2() {
+        margin-bottom:3rem;
+        display:flex;
+        flex-direction:column;
+        width:1000px;
+        margin:0 auto;
+    }
+}        
